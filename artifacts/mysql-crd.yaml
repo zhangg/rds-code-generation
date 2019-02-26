@@ -1,0 +1,12 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: mysql.rds
+spec:
+  group: rds
+  names:
+    kind: Mysql
+    listKind: Mysqllist
+    plural: mysqls
+  scope: NameSpaced
+  version: v1
