@@ -19,7 +19,8 @@ type Mysql struct {
 // MysqlSpec is the spec for a Mysql resource
 type MysqlSpec struct {
 	Port *int32 `json:"port"`
-	Replicas       *int32 `json:"replicas"`
+	Replicas *int32 `json:"replicas,omitempty"`
+	MysqlVersion string `json:"mysqlVersion"`
 }
 
 // MysqlStatus is the status for a Mysql resource
