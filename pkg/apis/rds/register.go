@@ -1,5 +1,5 @@
 package rds
 
 const (
-	GroupName = "rds"
+	GroupName = "rds.github.com"
 )
