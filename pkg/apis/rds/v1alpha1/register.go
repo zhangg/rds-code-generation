@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	rdscontroller "github.com/rds-code-generation/pkg/apis/rds"
+	rdscontroller "github.com/rds-operator/pkg/apis/rds"
 )
 
 // SchemeGroupVersion is group version used to register these objects
