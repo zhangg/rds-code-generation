@@ -19,7 +19,7 @@
 package versioned
 
 import (
-	rdsv1alpha1 "github.com/rds-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1"
+	rdsv1alpha1 "github.com/zhangg/test-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

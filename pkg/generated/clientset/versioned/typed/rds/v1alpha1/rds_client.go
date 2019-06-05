@@ -19,8 +19,8 @@
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/rds-operator/pkg/apis/rds/v1alpha1"
-	"github.com/rds-operator/pkg/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/zhangg/test-operator/pkg/apis/rds/v1alpha1"
+	"github.com/zhangg/test-operator/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

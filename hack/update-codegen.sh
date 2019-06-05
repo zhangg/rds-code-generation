@@ -24,7 +24,7 @@ set -o pipefail
 #   instead of the $GOPATH directly. For normal projects this can be dropped.
 # 
 "$(dirname "${BASH_SOURCE[0]}")"/generate-groups.sh all \
-  github.com/rds-operator/pkg/generated github.com/rds-operator/pkg/apis \
+  github.com/zhangg/test-operator/pkg/generated github.com/zhangg/test-operator/pkg/apis \
   "rds:v1alpha1" \
   --output-base "$GOPATH/src" \
   --go-header-file "$(dirname "${BASH_SOURCE[0]}")/rds-boilerplate.go.txt"

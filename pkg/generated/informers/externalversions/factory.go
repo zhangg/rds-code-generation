@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/rds-operator/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/rds-operator/pkg/generated/informers/externalversions/internalinterfaces"
-	rds "github.com/rds-operator/pkg/generated/informers/externalversions/rds"
+	versioned "github.com/zhangg/test-operator/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/zhangg/test-operator/pkg/generated/informers/externalversions/internalinterfaces"
+	rds "github.com/zhangg/test-operator/pkg/generated/informers/externalversions/rds"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -19,9 +19,9 @@
 package fake
 
 import (
-	clientset "github.com/rds-operator/pkg/generated/clientset/versioned"
-	rdsv1alpha1 "github.com/rds-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1"
-	fakerdsv1alpha1 "github.com/rds-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1/fake"
+	clientset "github.com/zhangg/test-operator/pkg/generated/clientset/versioned"
+	rdsv1alpha1 "github.com/zhangg/test-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1"
+	fakerdsv1alpha1 "github.com/zhangg/test-operator/pkg/generated/clientset/versioned/typed/rds/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

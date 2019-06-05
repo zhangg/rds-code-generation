@@ -19,7 +19,7 @@
 package scheme
 
 import (
-	rdsv1alpha1 "github.com/rds-operator/pkg/apis/rds/v1alpha1"
+	rdsv1alpha1 "github.com/zhangg/test-operator/pkg/apis/rds/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
